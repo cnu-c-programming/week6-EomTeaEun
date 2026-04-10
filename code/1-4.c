@@ -12,5 +12,5 @@ int main(){
     printf("%p\n", (void*)p);
     printf("%p\n", (void*)*p);
     printf("%p\n", (void*)**p);
-    printf("%p\n", ***p);
+    printf("%d\n", ***p);
 }

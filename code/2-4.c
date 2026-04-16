@@ -8,3 +8,10 @@ void print_2d_arr(int* rows[], int row_size, int col_size) {
         printf("\n");
     }
 }
+
+int main() {
+    int arr[2][3] = {1, 2, 3, 4, 5, 6};
+    int *rows[2] = {arr[0], arr[1]};
+    
+    print_2d_arr(rows, 2, 3);
+}
